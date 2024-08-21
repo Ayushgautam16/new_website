@@ -3,287 +3,284 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+}
+
+header {
     background-color: #f5f5f5;
     padding: 20px;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .logo img {
+}
+
+.logo img {
     width: 150px;
-  }
-  
-  .nav-links {
+}
+
+.nav-links {
     list-style: none;
     display: flex;
     gap: 20px;
-  }
-  
-  .nav-links li a {
+}
+
+.nav-links li a {
     text-decoration: none;
     color: #333;
-  }
-  
-  .actions {
+}
+
+.actions {
     display: flex;
     gap: 20px;
-  }
-  
-  .actions button, .actions a {
+}
+
+.actions button,
+.actions a {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     background-color: #333;
     color: #fff;
     cursor: pointer;
-  }
-  
-  .hero {
+}
+
+.hero {
     text-align: center;
     padding: 50px;
-  }
-  
-  .hero h1 {
+}
+
+.hero h1 {
     font-size: 36px;
-  }
-  
-  .hero h2 {
+}
+
+.hero h2 {
     font-size: 24px;
     margin-bottom: 20px;
-  }
-  
-  .hero img {
+}
+
+.hero img {
     max-width: 100%;
-  }
-  /* styles.css */
+}
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  .why-choose-us {
+}
+
+.why-choose-us {
     text-align: center;
-    padding: 50px;
-  }
-  
-  .container {
+    padding: 25px;
+}
+
+.container {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
-  }
-  
-  .section-item {
+}
+
+.section-item {
     text-align: center;
-  }
-  
-  .section-item img {
+}
+
+.section-item img {
     width: 100px;
     height: 100px;
     margin-bottom: 20px;
-  }
-  
-  .section-item h3 {
+}
+
+.section-item h3 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .section-item p {
+}
+
+.section-item p {
     font-size: 16px;
     line-height: 1.5;
-  }
+}
 
-  /* styles.css */
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+}
+
+header {
     background-color: #f0f0f0;
     padding: 20px;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .nav-links {
+}
+
+.nav-links {
     list-style: none;
     display: flex;
     gap: 20px;
-  }
-  
-  .nav-links li a {
+}
+
+.nav-links li a {
     text-decoration: none;
-    color:   
-   #333;
-  }
-  
-  .why-choose-us {
+    color: #333;
+}
+
+.why-choose-us {
     text-align: center;
     padding: 50px;
-  }
-  
-  .features {
+}
+
+.features {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
-  }
-  
-  .feature {
+}
+
+.feature {
     text-align: center;
-  }
-  
-  .feature img {
+}
+
+.feature img {
     width: 100px;
     height: 100px;
     margin-bottom: 20px;
-  }
-  
-  .feature h3 {
+}
+
+.feature h3 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .feature p {
-    font-size:   
-   16px;
+}
+
+.feature p {
+    font-size: 16px;
     line-height: 1.5;
-  }
+}
 
-
-  /* styles.css */
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0; /* Light grey background */
-  }
-  
-  header {
+}
+
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin-bottom: 50px;
-  }
-  
-  .nav-links {
+}
+
+.nav-links {
     list-style: none;
     display: flex;
     gap: 20px;
-  }
-  
-  .nav-links li a {
+}
+
+.nav-links li a {
     text-decoration: none;
     color: #333;
-  }
-  
-  .hero {
+}
+
+.hero {
     text-align: center;
     max-width: 600px;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 36px;
     margin-bottom: 20px;
-  }
-  
-  p {
+}
+
+p {
     color: #666;
     line-height: 1.5;
     margin-bottom: 30px;
-  }
-  
-  button {
+}
+
+button {
     background-color: #333;
     color: #fff;
     padding: 15px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  img {
+}
+
+img {
     max-width: 100%;
-  }
+}
 
-
-  /* styles.css */
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0; /* Light grey background */
-  }
-  
-  header {
+}
+
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin-bottom: 50px;
-  }
-  
-  .nav-links {
+}
+
+.nav-links {
     list-style: none;
     display: flex;
     gap: 20px;
-  }
-  
-  .nav-links li a {
+}
+
+.nav-links li a {
     text-decoration: none;
     color: #333;
-  }
-  
-  .hero {
+}
+
+.hero {
     text-align: center;
     max-width: 600px;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 24px;
     margin-bottom: 20px;
-  }
-  
-  form {
+}
+
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-  }
-  
-  input[type="email"] {
+}
+
+input[type="email"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 250px;
-  }
-  
-  button {
+}
+
+button {
     background-color: #333;
     color: #fff;
     padding: 15px 30px;
@@ -291,97 +288,90 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-  }
-  /* Basic styling */
+}
+/* Basic styling */
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #f2f2f2;
-  padding: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 nav a {
-  text-decoration: none;
-  color: #333;
-  padding: 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
 }
 
 .hero {
-  background-color: #fff;
-  padding: 40px;
+    background-color: #fff;
+    padding: 40px;
 }
 
 .subscribe input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .subscribe button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-
-
-
-
-
-
-
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 footer {
-  background-color: #f2f2f2;
-  padding: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 .connect {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .connect span {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 .connect a {
-  margin: 0 10px;
-  color: #333;
+    margin: 0 10px;
+    color: #333;
 }
 
 .divider {
-  border-top: 1px solid #ddd;
-  margin: 10px 0;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
 }
 
 .links {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .links a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
 }
 
 .copyright {
-  margin-top: 20px;
+    margin-top: 20px;
 }

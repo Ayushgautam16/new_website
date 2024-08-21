@@ -5,12 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>LAVATORI</title>
         <link rel="stylesheet" href="styles.css" />
+        <link href="../src/output.css" rel="stylesheet" />
     </head>
-    <body>
-        <header>
-            <nav>
+    <body class="bg-white">
+        <header class="bg-white">
+            <nav class="bg-white">
                 <div class="logo">
                     <div
+                        class=""
                         style="
                             color: black;
                             font-size: 25px;
@@ -19,10 +21,12 @@
                             word-wrap: break-word;
                         "
                     >
-                        I v tori
+                        <img
+                            src="./photos/logo.png"
+                            class="w-[186px] h-[77px]"
+                            alt=""
+                        />
                     </div>
-
-                    <img src="lavatori-logo.png" alt="Lavatori Logo" />
                 </div>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
@@ -39,10 +43,27 @@
             </nav>
         </header>
 
-        <section class="hero">
-            <h1>Welcome for</h1>
-            <h2>Revolutionizing Construction Material Procurement</h2>
-            <img src="hero-image.png" alt="Hero Image" />
+        <section class="min-w-full flex min-h-screen justify-evenly">
+            <div class="min-w-15 h-full flex flex-wrap">
+                <div class="my-60 gap-2">
+                    <h1 class="text-7xl font-black hover:text-gray-500">
+                        Welcome for
+                    </h1>
+                    <h2 class="text-[25px] font-normal">
+                        Revolutionizing Construction
+                    </h2>
+                    <h2 class="text-[25px] font-normal">
+                        Material Procurement
+                    </h2>
+                </div>
+            </div>
+            <div class="flex w-[50rem] h-[32rem]">
+                <img
+                    class="w-full h-full"
+                    src="./photos/herophoto1.png"
+                    alt=""
+                />
+            </div>
         </section>
 
         <!-- 2nd line -->
