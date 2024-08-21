@@ -3,14 +3,46 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>LAVATORI</title>
+        <title>IAVATORI</title>
         <link rel="stylesheet" href="styles.css" />
         <link href="../src/output.css" rel="stylesheet" />
     </head>
     <body class="bg-white">
-        <header class="bg-white">
-            <nav class="bg-white">
-                <div class="logo">
+        <header class="h-16 p-0 bg-gray-400 flex items-center">
+            <nav class="w-full px-6 h-full">
+                <div class="h-full w-full flex justify-between mt-4">
+                    <div
+                        class=""
+                        style="
+                            color: black;
+                            font-size: 25px;
+                            font-family: Product Sans Medium;
+                            font-weight: 500;
+                            word-wrap: break-word;
+                        "
+                    ></div>
+
+                    <div class="h-full flex items-center">
+                        <ul class="nav-links font-bold text-black">
+                            <li><a href="index.html" class="">Support</a></li>
+                            <li><a href="store.html">language</a></li>
+                        </ul>
+                    </div>
+                    <div class="h-full flex items-center gap-4">
+                        <button class="font-medium text-blue-600">
+                            sign in
+                        </button>
+                        <button class="font-medium text-blue-600">
+                            sign up
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- navbar real -->
+        <header class="bg-white h-20 p-0 mt-2 sticky top-0 w-full">
+            <nav class="bg-whiter w-full px-6">
+                <div class="h-full w-full flex justify-between mt-2">
                     <div
                         class=""
                         style="
@@ -21,24 +53,37 @@
                             word-wrap: break-word;
                         "
                     >
-                        <img
-                            src="./photos/logo.png"
-                            class="w-[186px] h-[77px]"
-                            alt=""
-                        />
+                        <img src="./photos/logo.png" class="w-30 h-18" alt="" />
                     </div>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="store.html">Store</a></li>
-                    <li><a href="about_us.html">About Us</a></li>
-                    <li><a href="sign_in.html">Contact Us</a></li>
-                </ul>
-                <div class="actions">
-                    <a href="sign_in.html">Sign In</a>
-                    <a href="sign_up.html">Sign Up</a>
-                    <a href="support.html">support</a>
-                    <a href="lang.html">language</a>
+
+                    <div class="h-full flex items-center">
+                        <ul class="nav-links font-bold">
+                            <li>
+                                <a href="index.html" class="hover:text-blue-500"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a href="store.html" class="hover:text-blue-500"
+                                    >Store</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="about_us.html"
+                                    class="hover:text-blue-500"
+                                    >About Us</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button
+                            class="bg-blue-600 p-2 rounded-3xl font-semibold hover:text-white"
+                        >
+                            Contact us
+                        </button>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -72,7 +117,6 @@
             <h2>Why Choose Us?</h2>
             <div class="container">
                 <div class="section-item">
-                    <img src="wide-selection.png" alt="Wide Selection" />
                     <h3>Wide Selection</h3>
                     <p>
                         Explore a vast inventory of top-quality construction
@@ -143,39 +187,55 @@
 
         <!-- 3rd line -->
 
-        <header>
-            <div class="hero">
-                <h1>Get Started Today</h1>
-                <p>
-                    Ready to transform the way you source construction
-                    materials? Join thousands of satisfied customers and
-                    discover the Invntori difference. Browse our catalog, place
-                    your order, and experience the future of construction
-                    material procurement.
-                </p>
-                <button>Get Started</button>
-                <img src="illustration.svg" alt="Illustration" />
+        <section class="min-w-full flex h-screen justify-normal px-10">
+            <div class="w-[50%] h-[32rem] flex flex-wrap pt-[30px]">
+                <div
+                    class="gap-2 flex align-middle items-center flex-col justify-center w-[100%] text-wrap"
+                >
+                    <h1 class="text-4xl font-bold hover:text-gray-500">
+                        Get Started Today
+                    </h1>
+                    <h2 class="text-[25px] w-full font-semibold">
+                        Ready to transform the way you source construction
+                        materials? Join thousands of satisfied customers and
+                        discover the Invntori difference. Browse our catalog,
+                        place your order, and experience the future of
+                        construction material procurement.
+                    </h2>
+                </div>
             </div>
-        </header>
+            <div class="flex w-[50rem] h-[32rem]">
+                <img class="w-full h-full" src="./photos/image 35.png" alt="" />
+            </div>
+        </section>
 
         <br />
 
         <!-- 4th line -->
 
-        <section class="hero">
-            <h2>"We're building a better way to buy building supplies."</h2>
-            <div class="subscribe">
+        <section class="w-screen h-[60vh]">
+            <div class="h-[12rem]">
+                <h2 class="text-center font-bold text-5xl">
+                    "<span class="text-blue-700">We're building</span> a better
+                    way to buy building supplies."
+                </h2>
+                <h2 class="text-center font-bold text-5xl mt-8">
+                    " Subscribe & get latest Offers before other’s "
+                </h2>
+            </div>
+            <div class="subscribe w-full">
                 <input
                     type="email"
                     placeholder="Enter your E-mail address here"
+                    class="rounded-lg p-8 w-15"
                 />
                 <button>Subscribe Now</button>
             </div>
         </section>
 
-        <footer>
+        <footer class="bg-[#E6E6E6]">
             <div class="connect">
-                <span>Connect with Us</span>
+                <span class="font-bold">Connect with Us</span>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-facebook"></i></a>
@@ -185,7 +245,7 @@
                 <a href="#"><i class="fab fa-youtube"></i></a>  
             </div>
             <div class="divider"></div>
-            <div class="links">
+            <div class="links w-full flex justify-evenly font-medium">
                 <a href="#">Terms of Service</a>
                 <a href="#">Privacy Policy</a>
                 <a href="#">Send feedback</a>
