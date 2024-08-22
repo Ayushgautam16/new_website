@@ -1,40 +1,275 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Invatori</title>
-<link rel="stylesheet" href="about_us.css">
-</head>
-<body>
-<header>
-<div class="logo">Invatori</div>
-<nav>
-<a href="#">Home</a>
-<a href="#">Store</a>
-<a href="#">About us</a>
-<a href="#">Contact us</a>
-</nav>
-</header>
+    <head>
+        <title>Invatori</title>
+        <link rel="stylesheet" href="about_us.css" />
+        <link href="../src/output.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <style media="screen">
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                
+            }
+            @font-face {
+                font-family: Exo;
+                src: url(./fonts/Exo2.0-Medium.otf);
+            }
+            .main {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #0c5db9;
+            }
+            .profile-card {
+                position: relative;
+                font-family: sans-serif;
+                width: 320px;
+                height: 320px;
+                background: #fff;
+                padding: 30px;
+                border-radius: 50%;
+                box-shadow: 0 0 22px #3336;
+                transition: 0.6s;
+                margin: 0 25px;
+            }
+            .profile-card:hover {
+                border-radius: 10px;
+                height: 380px;
+            }
+            .profile-card .img {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                transition: 0.6s;
+                z-index: 99;
+            }
+            .profile-card:hover .img {
+                transform: translateY(-60px);
+            }
+            .img img {
+                width: 80%;
+                border-radius: 50%;
+                box-shadow: 0 0 22px #3336;
+                transition: 0.6s;
+                margin-left: 18px;
+            }
+            .profile-card:hover img {
+                border-radius: 10px;
+            }
+            .caption {
+                text-align: center;
+                transform: translateY(-80px);
+                opacity: 0;
+                transition: 0.6s;
+            }
+            .profile-card:hover .caption {
+                opacity: 1;
+            }
+            .caption h3 {
+                font-size: 21px;
+                font-family: sans-serif;
+            }
+            .caption p {
+                font-size: 15px;
+                color: #0c52a1;
+                font-family: sans-serif;
+                margin: 2px 0 9px 0;
+            }
+            .caption .social-links a {
+                color: #333;
+                margin-right: 15px;
+                font-size: 21px;
+                transition: 0.6s;
+            }
+            .social-links a:hover {
+                color: #0c52a1;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="bg-white h-20 p-0 mt-2 sticky top-0 w-full">
+            <nav class="bg-whiter w-full px-6">
+                <div class="h-full w-full flex justify-between mt-2">
+                    <div
+                        class=""
+                        style="
+                            color: black;
+                            font-size: 25px;
+                            font-family: Product Sans Medium;
+                            font-weight: 500;
+                            word-wrap: break-word;
+                        "
+                    >
+                        <img src="./photos/logo.png" class="w-30 h-18" alt="" />
+                    </div>
 
-<section class="hero">
-<h1>Let's know more about us</h1>
-<div class="decorative-element"></div>
-<p>At Invntori, we understand that the construction industry demands efficiency, quality, and reliability. Our platform is designed to meet these needs by providing a seamless, end-to-end solution for sourcing construction materials. Whether you're a contractor, builder, or DIY enthusiast, we are here to streamline your procurement process, ensuring you get the best products at competitive prices.</p>
+                    <div class="h-full flex items-center">
+                        <ul class="nav-links font-bold flex">
+                            <li>
+                                <a href="index.html" class="hover:text-blue-500"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="about_us.html"
+                                    class="hover:text-blue-500"
+                                    >About Us</a
+                                >
+                            </li>
+                            <li>
+                                <a href="store.html" class="hover:text-blue-500"
+                                    >Store</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button
+                            class="bg-blue-600 p-2 rounded-3xl font-semibold text-white"
+                        >
+                            Contact us
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-<h2>Our Team</h2>
-<div class="team-members">
-  <div class="member">
-    <h3>Sahil Jadhav</h3>
-    <p>CEO & Founder</p>
-  </div>
-  <div class="member">
-    <h3>Harsh Jadhav</h3>
-    <p>CMO & Co-founder</p>
-  </div>
-  <div class="member">
-    <h3>Raj Nalawade</h3>
-    <p>CFO & Co-founder</p>
-  </div>
-</div>
-</section>
-</body>
+        <section class="w-full relative h-60">
+            <h1 class="text-4xl font-black pt-8">Let's know more about us</h1>
+            <div class="decorative-element w-full absolute left-[63rem] top-22">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="110"
+                    height="100"
+                    viewBox="0 0 70 38"
+                    fill="none"
+                >
+                    <path
+                        d="M2 2.03154C14.1155 1.66717 28.5002 4.42926 36.1288 11.9055C43.4148 19.0459 39.988 27.7502 31.9832 33.6484C29.837 35.2297 25.139 38.4526 21.1219 37.2553C17.0268 36.0348 16.7291 31.2143 16.7009 28.9481C16.6236 22.7139 19.575 15.0991 27.4551 11.68C39.6252 6.39969 51.7749 16.2246 57.3771 22.9516C64.1865 31.1282 67.7139 41.0645 67.9936 50.6122C68.0452 52.3752 67.7826 54.2649 67.2593 56"
+                        stroke="#545454"
+                        stroke-width="3"
+                        stroke-linecap="round"
+                    />
+                </svg>
+                <svg
+                    class="absolute left-[98px]"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="14"
+                    viewBox="0 0 12 10"
+                    fill="none"
+                >
+                    <path
+                        d="M2 3.00293C2 3.51173 2.32055 3.90945 2.68148 4.32902C3.6644 5.47165 4.34424 6.75452 5.31852 7.90614C6.09321 8.82185 9.33151 2.75425 10 2"
+                        stroke="#545454"
+                        stroke-width="4"
+                        stroke-linecap="round"
+                    />
+                </svg>
+            </div>
+            <div class="absolute top-[140px] w-full h-[72px] flex p-16">
+                <p
+                    class="text-start font-semibold text-3xl font-weight-500 text-wrap"
+                >
+                    At Invntori, we understand that the construction industry
+                    demands efficiency, quality, and reliability. Our platform
+                    is designed to meet these needs by providing a seamless,
+                    end-to-end solution for sourcing construction materials.
+                    Whether you're a contractor, builder, or DIY enthusiast, we
+                    are here to streamline your procurement process, ensuring
+                    you get the best products at competitive prices.
+                </p>
+            </div>
+        </section>
+        <section class="mt-96">
+            <h2 class="text-6xl font-bold">Our Team</h2>
+            <div class="team-members">
+                <div class="main">
+                    <div class="profile-card">
+                        <div class="img">
+                            <img src="./photos/founder1.png" class="" />
+                        </div>
+                        <div class="caption">
+                            <h3>Sahil Jadhav</h3>
+                            <p>CEO & Founder</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-card">
+                        <div class="img">
+                            <img src="./photos/founder2.png" />
+                        </div>
+                        <div class="caption">
+                            <h3>Harsh Jadhav</h3>
+                            <p>CMO & Co-Founder</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-card">
+                        <div class="img">
+                            <img src="./photos/founder3.png" />
+                        </div>
+                        <div class="caption">
+                            <h3>Raj Nalawade</h3>
+                            <p>CFO & Co-Founder</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="h-screen w-screen bg-[#545454] ">
+            <div class="mt-8">
+                <h2 class="text-4xl text-white">
+                    We Are <span class="text-blue-600">Growing</span>
+                </h2>
+                <h2 class="text-4xl text-white">be the part of the journey</h2>
+            </div>
+            <div class="flex w-full flex-wrap justify-evenly mt-36">
+                <div
+                    class="border-red-500 h-[340px] w-[226px] rounded-[48px] bg-[#ECECEC]"
+                ></div>
+                <div
+                    class="border-red-500 h-[340px] w-[226px] rounded-[48px] bg-[#ECECEC]"
+                ></div>
+                <div
+                    class="border-red-500 h-[340px] w-[226px] rounded-[48px] bg-[#ECECEC]"
+                ></div>
+                <div
+                    class="border-red-500 h-[340px] w-[226px] rounded-[48px] bg-[#ECECEC]"
+                ></div>
+            </div>
+        </section>
+        <footer class="h-22 ">
+            <div><h2 class="font-semibold">Follow us on</h2></div>
+            <div>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+            <p>All Rights Reserved by InvatoriPvt.Ltd</p>
+        </footer>
+    </body>
+    <script
+        src="https://kit.fontawesome.com/c3529feef6.js"
+        crossorigin="anonymous"
+    ></script>
 </html>
