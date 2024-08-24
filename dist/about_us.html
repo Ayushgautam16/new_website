@@ -30,18 +30,15 @@
                 position: relative;
                 font-family: sans-serif;
                 width: 320px;
-                height: 320px;
+                height: 430px;
                 background: #fff;
                 padding: 30px;
-                border-radius: 50%;
+                border-radius: 10px;
                 box-shadow: 0 0 22px #3336;
                 transition: 0.6s;
                 margin: 0 25px;
             }
-            .profile-card:hover {
-                border-radius: 10px;
-                height: 380px;
-            }
+
             .profile-card .img {
                 position: relative;
                 width: 100%;
@@ -49,28 +46,22 @@
                 transition: 0.6s;
                 z-index: 99;
             }
-            .profile-card:hover .img {
-                transform: translateY(-60px);
-            }
+
             .img img {
                 width: 80%;
-                border-radius: 50%;
+                border-radius: 10px;
                 box-shadow: 0 0 22px #3336;
                 transition: 0.6s;
                 margin-left: 18px;
             }
-            .profile-card:hover img {
-                border-radius: 10px;
-            }
+
             .caption {
                 text-align: center;
                 transform: translateY(-80px);
-                opacity: 0;
+                opacity: 1;
                 transition: 0.6s;
             }
-            .profile-card:hover .caption {
-                opacity: 1;
-            }
+
             .caption h3 {
                 font-size: 21px;
                 font-family: sans-serif;
@@ -86,9 +77,6 @@
                 margin-right: 15px;
                 font-size: 21px;
                 transition: 0.6s;
-            }
-            .social-links a:hover {
-                color: #0c52a1;
             }
         </style>
     </head>
@@ -106,7 +94,7 @@
                             word-wrap: break-word;
                         "
                     >
-                        <img src="./photos/logo.png" class="w-30 h-18" alt="" />
+                    <img src="./photos/logo.png" class="w-[150px] h-15" alt="" />
                     </div>
 
                     <div class="h-full flex items-center">
@@ -236,8 +224,8 @@
                     </div>
                 </div>
             </div>
-        <!-- </section>
-        <section class="h-screen w-screen bg-[#545454]">
+        </section>
+        <!-- <section class="h-screen w-screen bg-[#545454]">
             <div class="mt-8">
                 <h2 class="text-4xl text-white">
                     We Are <span class="text-blue-600">Growing</span>
@@ -260,8 +248,6 @@
             </div>
         </section> -->
 
-        <br>
-        <br>
         <footer class="bg-[#E6E6E6]">
             <div class="connect">
                 <span class="font-bold">Connect with Us</span>
